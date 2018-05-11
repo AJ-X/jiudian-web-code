@@ -1,0 +1,108 @@
+.bg{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: url(../img/bg.jpg);
+}
+.loginbox{
+	background:url(../img/tmbg-white.png);
+}
+
+
+.header
+{
+	height: 70px;
+	/*多出屏幕就隐藏*/
+	overflow: hidden;
+	background: url(../img/bg.jpg) no-repeat 0 -1000px;
+	
+}
+.logo
+{
+	float: left;
+	color: #FFFFFF;
+	margin-top: 10px;
+	line-height: 45px;
+}
+.logo img
+{
+	float: left;
+	margin-right: 10px;
+}
+
+.leftnav
+{
+	width: 180px;
+	height: 100%;
+	/*固定位置*/
+	position: fixed;
+	top: 70px;
+	left: 0px;
+}
+
+.leftnav-title
+{
+	height: 50px;
+	background: url(../img/bg.jpg) no-repeat 0 -1000px;
+	color: #FFFFFF;
+	font-size: 15px;
+	padding-left: 22px;
+	/*行高*/
+	line-height: 50px;
+}
+.leftnav-title span
+{
+	margin-right: 10px;
+}
+
+.leftnav h2
+{
+	padding: 10px 0px 10px 22px;
+	font-size: 14px;
+	font-weight: bold;
+	/*换鼠标*/
+	cursor: pointer;
+	
+}
+
+.leftnav h2 span {
+	margin-right: 10px;
+}
+.leftnav h2:hover{
+	color: #09c;
+}
+
+.leftnav ul
+{
+	border-top:  1px solid #B5CFD9;
+	padding: 5px 0;
+}
+
+.leftnav ul li a
+{
+	display: block;
+	padding-left: 30px;
+	line-height: 30px;
+}
+.leftnav ul li span
+{
+	margin-right: 8px;
+}
+
+.admin
+{
+	background: #FFFFFF;
+	position: fixed;
+	border-left: 1px solid #B5CFD9;
+	right:0;
+	bottom: 0;
+	top: 115px;
+	left: 180px;
+	padding: 15px;
+	border-top: 1px solid #B5CFD9;
+	padding-right: 15px;
+	
+}
+/*.admin-iframe{
+	float: left;
+}*/
